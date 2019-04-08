@@ -1682,10 +1682,10 @@ input, select, textarea {
 		border: 0;
 		outline: 0;
 		cursor: pointer;
-		border-radius: 40px;
+		border-radius: 20px;
 		text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0.5);
 		overflow: hidden;
-		box-shadow: inset 0px 0px 40px 2px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
+		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
 		background-color: #797066;
 		padding: 1em 2.35em 1em 2.35em;
 		font-size: 1.1em;
@@ -1697,7 +1697,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #3e362f;
+			background-color: rosybrown;
 			color: #fff !important;
 		}
 
@@ -1724,8 +1724,8 @@ input, select, textarea {
 		input[type="reset"].alt,
 		button.alt,
 		.button.alt {
-			background-color: #444;
-			box-shadow: inset 0px 0px 0px 1px #242424, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.2);
+			background-color: #797066;
+			/* box-shadow: inset 0px 0px 0px 1px #242424, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.2); */
 		}
 
 			input[type="button"].alt:hover,
@@ -1973,7 +1973,7 @@ input, select, textarea {
 /* Wrappers */
 
 	.wrapper {
-		background-image: url("images/bg.png");
+		/* background-image: url("images/bg.png"); */
 		box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 		padding: 8em 0 8em 0;
 		text-align: center;
@@ -1995,7 +1995,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style4 {
-			background-color: #303030;
+			background-color: rosybrown;
 			color: #999;
 			text-shadow: -1px -1px 0px #181818;
 		}
@@ -2009,7 +2009,7 @@ input, select, textarea {
 			.wrapper.style4 form select,
 			.wrapper.style4 form textarea {
 				border: none;
-				background: #282828;
+				background: #f1f1ef;
 			}
 
 				.wrapper.style4 form input[type=text]:focus,
@@ -2022,7 +2022,7 @@ input, select, textarea {
 /* Nav */
 
 	#nav {
-		background-color: #797066;
+		background-color: rosybrown;
 		text-align: center;
 		position: fixed;
 		left: 0;
@@ -2065,7 +2065,7 @@ input, select, textarea {
 
 			#nav a:hover {
 				color: #fff !important;
-				background: #383838;
+				background: #65594d;
 			}
 
 			#nav a.active {
